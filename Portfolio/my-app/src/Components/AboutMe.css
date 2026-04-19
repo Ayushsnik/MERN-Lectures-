@@ -1,0 +1,99 @@
+/* About Me Container */
+.aboutMe-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px;
+    background-color: #f8f5e4;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image */
+.aboutMe-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe-profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #e3ac7c;
+}
+
+/* About Content */
+.aboutMe-content {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutMe-content h1 {
+    color: #e3ac7c;
+    font-size: 2rem;
+}
+
+.aboutMe-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Work Experience */
+.aboutMe-work,
+.aboutMe-skills,
+.aboutMe-projects {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutMe-work h2,
+.aboutMe-skills h2,
+.aboutMe-projects h2 {
+    color: #e3ac7c;
+    font-size: 1.8rem;
+}
+
+.aboutMe-work p {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Skills List */
+.aboutMe-skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.aboutMe-skills li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    padding: 8px;
+    background: #f8f5e4;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Projects Section */
+.aboutMe-projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.aboutMe-projects li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    padding: 8px;
+    background: #f8f5e4;
+    border-radius: 8px;
+    text-align: center;
+}

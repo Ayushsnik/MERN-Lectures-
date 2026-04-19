@@ -1,0 +1,89 @@
+/* Global font */
+* {
+    font-family: "Bubblegum Sans", sans-serif;
+}
+
+/* Navbar Styling */
+.Navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(227, 172, 124);
+    gap: 40px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* Content Styling */
+.content {
+    background-color: #F8F5E4;
+    font-size: 200%;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 30vw;
+    height: fit-content;
+
+}
+
+/* Profile Image */
+.profile {
+    margin-top: -620px;
+    margin-right: 1045px;
+    scale: 0.3;
+    background-color: black;
+
+}
+
+/* Content and Profile Layout */
+.content_and_profile {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 65px;
+    row-gap: 20px;
+}
+.work{
+    background-color: #F8F5E4;
+    height: fit-content;
+    width: 92%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 120%;
+    
+}
+
+.work p{
+    font-size: larger;
+}
+.skills{
+    background-color: #F8F5E4;
+    border-radius: 10px;
+    font-size: 120%;
+    padding: 10px 20px;
+    width: 30vw;
+    height: fit-content;
+}
+.skills ul{
+    font-size: larger;
+}
+
+.projects{
+    margin-top: -902px;
+    background-color: #F8F5E4;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 120%;
+    height: fit-content;
+    width: 630px;
+    margin-left: 833px;
+}
+.projects *ul{
+    font-size: larger;
+}
+.breakpro{
+    display: inline;
+    display: flex;
+    font-size: large;
+
+}
